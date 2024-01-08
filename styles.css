@@ -1,0 +1,340 @@
+
+header > div {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+nav {
+  width: 600px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #d63237;
+}
+
+.blackHeart {
+  width: 20px;
+  margin-right: 1rem;
+}
+
+.bottom-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.bottom-section img {
+  width: 50px; 
+  height: auto; 
+  margin-bottom: 10px; 
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.input-container {
+  display: flex;
+  align-items: left;
+}
+
+.input-container img {
+  width: 20px;
+  height: auto;
+  margin-right: 5px;
+}
+
+.input-container input[type="text"] {
+  border: none;
+  outline: none;
+  padding: 5px;
+}
+
+.input-container .search-button {
+  background-color: #fb3e44;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.input-container .search-button:hover {
+  background-color: #0056b3;
+}
+
+.button-1 {
+  display: flex;
+  gap: 10px;
+}
+
+.button-1 a {
+  text-decoration: none;
+  padding: 8px 15px;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  color: #007bff;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button-1 a:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.button-2 {
+  display: flex;
+  gap: 10px;
+}
+
+.button-2 a {
+  text-decoration: none;
+  padding: 8px 15px;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  color: #007bff;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button-2 a:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+section#build {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(232, 217, 217, .3);
+}
+
+h2 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.button-3 a,
+.buttons-4 a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.button-3 a {
+  background-color: #ff6347;
+}
+
+.buttons-4 a {
+  background-color: #ff4500;
+}
+
+.button-3 a:hover,
+.buttons-4 a:hover {
+  opacity: 0.8;
+}
+
+section#bring {
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #000;
+  width: 80%;
+  margin: 20px auto;
+}
+
+section#bring img {
+  max-width: 100px;
+  margin: 20px 0;
+  opacity: 0.5;
+}
+
+section#bring h2 {
+background-color: #f0e68c;
+  color: #000080;
+  margin: 10px 0;
+}
+
+section#bring p {
+  color: #2f4f4f;
+}
+
+#Zero {
+  background-color: #ffffff;
+  border: 2px solid #ff4500;
+  padding: 20px;
+  max-width: 
+
+300px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#Zero img {
+  width: 40px;
+  margin-bottom: 20px;
+}
+
+#Zero h2 {
+  background-color: #f8f8ff;
+  color: #a52a2a;
+  display: inline-block;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  border: 1px solid #a52a2a;
+}
+
+#Zero p {
+  color: #000000;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+#Team {
+  background-color: #ffffff;
+  border: 2px solid #ff4500;
+  padding: 20px;
+  max-width: 300px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#Team img {
+  width: 40px;
+  margin-bottom: 20px;
+}
+
+#Team h2 {
+  background-color: #f8f8ff;
+  color: #a52a2a;
+  display: inline-block;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  border: 1px solid #a52a2a;
+}
+
+#Team p {
+  color: #000000;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+#Family {
+  background-color: #ffffff;
+  border: 2px solid #ff4500;
+  padding: 20px;
+  max-width: 300px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#Family img {
+  width: 40px;
+  margin-bottom: 20px;
+}
+
+#Family h2 {
+  background-color: #f8f8ff;
+  color: #a52a2a;
+  display: inline-block;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  border: 1px solid #a52a2a;
+}
+
+#Family p {
+  color: #000000;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+#npm {
+  background-color: #ffffff;
+  border: 2px solid #ff4500;
+  padding: 20px;
+  max-width: 300px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#npm img {
+  width: 40px;
+  margin-bottom: 20px;
+}
+
+#npm h2 {
+  background-color: #f8f8ff;
+  color: #a52a2a;
+  display: inline-block;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  border: 1px solid #a52a2a;
+}
+
+#npm p {
+  color: #000000;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+#buttons {
+  padding: 20px;
+  background-color: #000;
+  text-align: center;
+}
+
+.button-5 {
+  background-color: #000;
+}
+
+.button-5 a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  display: inline-block;
+}
+
+.button-5 a:hover {
+  background-color: #333;
+}
